@@ -1,1 +1,0 @@
-Thonny IDE for Micropython programming
