@@ -34,11 +34,11 @@ The robot has three operating modes: manual drive, autonomous obstacle avoidance
 | L298N Motor Driver | 1 | DC motor control |
 | SG90 Servo Motor | 1 | Rotates the front ultrasonic sensor |
 | HC-SR04 Ultrasonic Sensor | 2 | Front and rear distance measurement |
-| DC Gear Motors | 2 | Wheel drive |
+| DC Gear Motors | 4 | Wheel drive |
 | Robot Car Chassis | 1 | Base frame |
-| Wheels | 2 | Mobility |
+| Wheels | 4 | Mobility |
 | Push Button | 1 | Toggles autonomous mode on/off |
-| Li-ion Battery | 1 | Power supply |
+| Li-ion Battery | 3 | Power supply |
 | Battery Holder | 1 | Houses the battery cells |
 | Jumper Wires | — | Connections |
 
@@ -78,7 +78,7 @@ The robot has three operating modes: manual drive, autonomous obstacle avoidance
 ## Repository Structure
 
 ```
-Dual-Mode-Obstacle-Avoidance-Robot/
+Multi-Mode-Obstacle-Avoidance-Robot/
 ├── main.py               # MicroPython main script
 ├── PHANTOM.apk           # Android control app
 ├── Robot car part.png    # Component reference image
