@@ -1,4 +1,5 @@
 # Multi Mode Obstacle Avoidance Robot
+[Click here to jump to the Video Demo](#video-demo)
 
 A MicroPython-based robot car that can navigate autonomously using ultrasonic sensing, or be driven manually via Bluetooth — built on the Raspberry Pi Pico.
 
@@ -224,6 +225,12 @@ If no echo is received within 30,000 microseconds, distance defaults to 400 cm s
 - Implement PWM-based speed control on the L298N enable pins
 - Tune obstacle detection and follow thresholds for different environments
 - Add a low battery indicator
+
+---
+## Video Demo
+
+https://github.com/user-attachments/assets/9c1f9552-dd8c-4175-bab7-793cf76ae087
+
 
 ---
 
